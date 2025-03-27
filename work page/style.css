@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  color: #181717;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.container {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 128px;
+}
+
+.header-wrapper a {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 97%;
+  letter-spacing: -3%;
+}
+
+.header-wrapper nav a {
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: -3%;
+}
+
+.header-wrapper nav {
+  display: flex;
+  gap: 29px;
+}
+
+.hello-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 180px;
+  margin-bottom: 128px;
+}
+
+.hello-wrapper h1 {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 97%;
+  letter-spacing: -3%;
+}
+
+.hello-img {
+  margin-bottom: 83px;
+}
+
+.hello-wrapper p {
+  font-weight: 400;
+  font-size: 32px;
+  color: #606060;
+  line-height: 117%;
+  letter-spacing: -3%;
+}
+
+.project-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #181717;
+  margin-bottom: 114px;
+}
+
+.project:last-child .project-wrapper{
+    margin-bottom: 20px;
+    border-bottom: unset;
+}
+
+.project-left h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 122%;
+  letter-spacing: -3%;
+  margin-bottom: 25px;
+}
+
+.project-left h4 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 122%;
+  letter-spacing: -3%;
+  margin-bottom: 60px;
+  max-width: 356px;
+}
+
+.project-left p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 122%;
+  letter-spacing: -3%;
+  color: #606060;
+  margin-bottom: 167px;
+  max-width: 316px;
+}
+
+.project-left a {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 122%;
+  letter-spacing: -3%;
+  text-decoration: underline;
+}
+
+.project-right {
+    margin-bottom: 108px;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 116px;
+}
+
+.footer-wrapper p{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: -3%;
+    color: #2429AF;
+}
+
+.footer-wrapper nav{
+    display: flex;
+    gap: 32px;
+}
+
+.footer-wrapper nav a{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: -3%;
+}
+
